@@ -5,13 +5,7 @@ import os
 
 load_dotenv()
 app = Flask(__name__)
-
-<<<<<<< HEAD
 API_KEY = os.getenv('API_KEY')
-
-=======
-API_KEY = ''
->>>>>>> d2136340ced525089d827e04075af807cfaee25d
 
 @app.route('/')
 def index():
